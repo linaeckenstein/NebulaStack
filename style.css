@@ -1,0 +1,107 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+/* Header */
+.top-header {
+  background-color: #000;
+  padding: 15px 30px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 32px;
+}
+.support-btn {
+  background-color: #d72828;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.support-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #444;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  color: #d72828;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #d72828;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+ol, ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #d72828;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Button */
+.cta-button {
+  display: block;
+  width: fit-content;
+  margin: 40px auto 0;
+  padding: 14px 28px;
+  background-color: #d72828;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #a51a1a;
+}
