@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -17,14 +17,17 @@ body {
   background-color: #000;
   padding: 15px 30px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
-  height: 32px;
+  height: 34px;
 }
+
 .support-btn {
   background-color: #d72828;
   color: #fff;
@@ -35,6 +38,7 @@ body {
   text-decoration: none;
   transition: background 0.3s ease;
 }
+
 .support-btn:hover {
   background-color: #b91c1c;
 }
@@ -74,19 +78,21 @@ ol, ul {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
 li {
   margin-bottom: 8px;
 }
 
 a {
-  color: #d72828;
+  color: #1a73e8;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
-/* CTA Button */
+/* CTA */
 .cta-button {
   display: block;
   width: fit-content;
